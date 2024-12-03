@@ -27,22 +27,23 @@ app.use(cors({origin:"*"}));
 //Preparar a app para entender o formato JSON
 app.use(express.json());
 
-app.use('/paciente', rotaPaciente);
-app.use('/funcionario', rotaFuncionario);
-app.use('/produto', rotaProduto);
+// app.use('/paciente', rotaPaciente);
+// app.use('/funcionario', rotaFuncionario);
+// app.use('/produto', rotaProduto);
 app.use('/fabricante',rotaFabricante);
-app.use('/unidade',rotaUnidade);
-app.use('/forma',rotaForma);
-app.use('/consumo', rotaConsumo);
-app.use('/nomeFarmaco', rotaNomeFarmaco);
-app.use('/lote', rotaLote);
-app.use('/itensconsumo', rotaItensConsumo);
-app.use('/local', rotaLocal);
-app.use('/entrada', rotaEntrada);
-app.use('/motivo',rotaMotivo);
-app.use('/baixa',rotaBaixa);
-app.use('/transferencia',rotaTransferencia);
-app.use('/itenstransferencia',rotaItensTransferencia);
+// app.use('/unidade',rotaUnidade);
+// app.use('/forma',rotaForma);
+// app.use('/consumo', rotaConsumo);
+// app.use('/nomeFarmaco', rotaNomeFarmaco);
+
+// app.use('/lote', rotaLote);
+// app.use('/itensconsumo', rotaItensConsumo);
+// app.use('/local', rotaLocal);
+// app.use('/entrada', rotaEntrada);
+// app.use('/motivo',rotaMotivo);
+// app.use('/baixa',rotaBaixa);
+// app.use('/transferencia',rotaTransferencia);
+// app.use('/itenstransferencia',rotaItensTransferencia);
 
 
 
