@@ -1,21 +1,21 @@
 import express from "express";
 import cors from "cors";
-import rotaPaciente from "./rotas/rotaPaciente.js";
-import rotaFuncionario from "./rotas/rotaFuncionario.js";
-import rotaProduto from "./rotas/rotaProduto.js";
+// import rotaPaciente from "./rotas/rotaPaciente.js";
+// import rotaFuncionario from "./rotas/rotaFuncionario.js";
+// import rotaProduto from "./rotas/rotaProduto.js";
 import rotaFabricante from "./rotas/rotaFabricante.js";
-import rotaUnidade from "./rotas/rotaUnidade.js";
-import rotaForma from "./rotas/rotaForma.js";
-import rotaLote from "./rotas/rotaLote.js";
-import rotaConsumo from "./rotas/rotaConsumo.js";
-import rotaItensConsumo from "./rotas/rotaItensConsumo.js";
-import rotaNomeFarmaco from "./rotas/rotaNomeFarmacologico.js";
-import rotaLocal from "./rotas/rotaLocal.js"
-import rotaEntrada from "./rotas/rotaEntrada.js";
-import rotaMotivo from "./rotas/rotaMotivo.js";
-import rotaBaixa from "./rotas/rotaBaixa.js";
-import rotaTransferencia from "./rotas/rotaTransferencia.js";
-import rotaItensTransferencia from "./rotas/rotaItensTransferencia.js";
+// import rotaUnidade from "./rotas/rotaUnidade.js";
+// import rotaForma from "./rotas/rotaForma.js";
+// import rotaLote from "./rotas/rotaLote.js";
+// import rotaConsumo from "./rotas/rotaConsumo.js";
+// import rotaItensConsumo from "./rotas/rotaItensConsumo.js";
+// import rotaNomeFarmaco from "./rotas/rotaNomeFarmacologico.js";
+// import rotaLocal from "./rotas/rotaLocal.js"
+// import rotaEntrada from "./rotas/rotaEntrada.js";
+// import rotaMotivo from "./rotas/rotaMotivo.js";
+// import rotaBaixa from "./rotas/rotaBaixa.js";
+// import rotaTransferencia from "./rotas/rotaTransferencia.js";
+// import rotaItensTransferencia from "./rotas/rotaItensTransferencia.js";
 
 
 //Aplicação HTTP pronta, bastando parametrizá-la
