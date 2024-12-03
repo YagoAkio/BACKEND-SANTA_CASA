@@ -5,10 +5,10 @@ export default async function conectar(){
     }
     else {
         const pool = mysql.createPool({
-            host: 'localhost',
-            port: '3306',
+            host: 'autorack.proxy.rlwy.net',
+            port: '17615',
             user: 'root',
-            password: '1234',
+            password: 'zLFlVoikctGPfTNMMOgdxQSgJpbnQTCv',
             database: 'santa_casa',
             waitForConnections: true,
             connectionLimit: 10,
