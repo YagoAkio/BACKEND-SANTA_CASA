@@ -1,0 +1,67 @@
+PACIENTE
+
+{
+    "cpf": "123.456.789-00",
+    "nome": "Fulano de Tal",
+    "raca": "Branca",
+    "estado_civil": "S",
+    "sexo": "M",
+    "data_nascimento": "1990-05-15",
+    "endereco": "Rua Exemplo, 123",
+    "bairro": "Centro",
+    "telefone": "(00) 1234-5678",
+    "profissao": "Profissão Exemplo",
+    "numero": "123",
+    "complemento": "Ap 101",
+    "cep": "12345-678",
+    "naturalidade": "Cidade Exemplo",
+    "nome_pai": "Pai do Fulano",
+    "nome_responsavel": "Responsável do Fulano",
+    "nome_mae": "Mãe do Fulano",
+    "nome_social": "",
+    "utilizar_nome_social": "N",
+    "religiao": "Religião Exemplo",
+    "orientacao_sexual": 0
+}
+
+
+FUNCIONÁRIO
+
+{
+    "nome_funcionario": "Maria Silva",
+    "farmaceutico": "N",
+    "coren": "",
+    "cpf": "987.654.321-00",
+    "telefone_funcionario": "(00) 9876-5432"
+}
+
+
+FORNECEDOR
+
+{
+    "cnpj": "12.345.678/0001-90",
+    "f_nome": "Exemplo Indústria LTDA",
+    "endereco": "Rua dos Exemplos",
+    "numero": 123,
+    "complemento": "Sala 101",
+    "bairro": "Centro",
+    "cidade": "Exemplo",
+    "uf": "SP",
+    "telefone": "(00) 1234-5678"
+}
+
+PRODUTOS
+
+{
+    "prod_ID": 1,
+    "Fabricante_idFabricante": 2,
+    "nome": "Novalgina",
+    "psicotropico": "N",
+    "valor_custo": 11.50,
+    "far_cod": 2,
+    "ffa_cod": 2,
+    "uni_cod": 2,
+    "observacao": "Evitar o uso prolongado.",
+    "descricao_uso": "Anti-gripal.",
+    "tipo": "Medicamento"
+}
